@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600F976319B39A5200BBC468 /* bogie.png in Resources */ = {isa = PBXBuildFile; fileRef = 600F975E19B39A5200BBC468 /* bogie.png */; };
+		600F976419B39A5200BBC468 /* engine.png in Resources */ = {isa = PBXBuildFile; fileRef = 600F975F19B39A5200BBC468 /* engine.png */; };
+		600F976619B39A5200BBC468 /* signalGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 600F976119B39A5200BBC468 /* signalGreen.png */; };
+		600F976719B39A5200BBC468 /* SignalRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 600F976219B39A5200BBC468 /* SignalRed.png */; };
+		600F976E19B3AF1700BBC468 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 600F976A19B3AF1700BBC468 /* bgm.mp3 */; };
+		600F976F19B3AF1700BBC468 /* bubble.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 600F976B19B3AF1700BBC468 /* bubble.aiff */; };
+		600F977019B3AF1700BBC468 /* change.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 600F976C19B3AF1700BBC468 /* change.aiff */; };
+		600F977119B3AF1700BBC468 /* gameover.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 600F976D19B3AF1700BBC468 /* gameover.aiff */; };
+		601EC10819C1CC9800D1C5CD /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 601EC10719C1CC9800D1C5CD /* bg.png */; };
+		601EC10B19C1D0E600D1C5CD /* sprite1.png in Resources */ = {isa = PBXBuildFile; fileRef = 601EC10919C1D0E600D1C5CD /* sprite1.png */; };
+		601EC10C19C1D0E600D1C5CD /* sprite2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 601EC10A19C1D0E600D1C5CD /* sprite2.jpg */; };
+		6020749B19B24D1300862733 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 6020749A19B24D1300862733 /* Game.m */; };
+		602BE41419AB7FDB00A1E4A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602BE41319AB7FDB00A1E4A3 /* Foundation.framework */; };
+		602BE41619AB7FDB00A1E4A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602BE41519AB7FDB00A1E4A3 /* CoreGraphics.framework */; };
+		602BE41819AB7FDB00A1E4A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602BE41719AB7FDB00A1E4A3 /* UIKit.framework */; };
+		602BE41E19AB7FDB00A1E4A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 602BE41C19AB7FDB00A1E4A3 /* InfoPlist.strings */; };
+		602BE42019AB7FDB00A1E4A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 602BE41F19AB7FDB00A1E4A3 /* main.m */; };
+		602BE42419AB7FDB00A1E4A3 /* FEXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 602BE42319AB7FDB00A1E4A3 /* FEXAppDelegate.m */; };
+		602BE42719AB7FDC00A1E4A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602BE42519AB7FDC00A1E4A3 /* Main.storyboard */; };
+		602BE42A19AB7FDC00A1E4A3 /* FEXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602BE42919AB7FDC00A1E4A3 /* FEXViewController.m */; };
+		602BE42C19AB7FDC00A1E4A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602BE42B19AB7FDC00A1E4A3 /* Images.xcassets */; };
+		602BE43319AB7FDC00A1E4A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602BE43219AB7FDC00A1E4A3 /* XCTest.framework */; };
+		602BE43419AB7FDC00A1E4A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602BE41319AB7FDB00A1E4A3 /* Foundation.framework */; };
+		602BE43519AB7FDC00A1E4A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602BE41719AB7FDB00A1E4A3 /* UIKit.framework */; };
+		602BE43D19AB7FDC00A1E4A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 602BE43B19AB7FDC00A1E4A3 /* InfoPlist.strings */; };
+		602BE43F19AB7FDC00A1E4A3 /* Freight_ExpressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 602BE43E19AB7FDC00A1E4A3 /* Freight_ExpressTests.m */; };
+		60D55FB319BCEC6E0032FFE3 /* SignalYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D55FB219BCEC6E0032FFE3 /* SignalYellow.png */; };
+		60D55FB519BCEE080032FFE3 /* boxes.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D55FB419BCEE080032FFE3 /* boxes.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		602BE43619AB7FDC00A1E4A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 602BE40819AB7FDB00A1E4A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 602BE40F19AB7FDB00A1E4A3;
+			remoteInfo = "Freight Express";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		600F975E19B39A5200BBC468 /* bogie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bogie.png; sourceTree = "<group>"; };
+		600F975F19B39A5200BBC468 /* engine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = engine.png; sourceTree = "<group>"; };
+		600F976119B39A5200BBC468 /* signalGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signalGreen.png; sourceTree = "<group>"; };
+		600F976219B39A5200BBC468 /* SignalRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SignalRed.png; sourceTree = "<group>"; };
+		600F976A19B3AF1700BBC468 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
+		600F976B19B3AF1700BBC468 /* bubble.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = bubble.aiff; sourceTree = "<group>"; };
+		600F976C19B3AF1700BBC468 /* change.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = change.aiff; sourceTree = "<group>"; };
+		600F976D19B3AF1700BBC468 /* gameover.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = gameover.aiff; sourceTree = "<group>"; };
+		601EC10719C1CC9800D1C5CD /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		601EC10919C1D0E600D1C5CD /* sprite1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprite1.png; sourceTree = "<group>"; };
+		601EC10A19C1D0E600D1C5CD /* sprite2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sprite2.jpg; sourceTree = "<group>"; };
+		6020749919B24D1300862733 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		6020749A19B24D1300862733 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		602BE41019AB7FDB00A1E4A3 /* Freight Express.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Freight Express.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		602BE41319AB7FDB00A1E4A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		602BE41519AB7FDB00A1E4A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		602BE41719AB7FDB00A1E4A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		602BE41B19AB7FDB00A1E4A3 /* Freight Express-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Freight Express-Info.plist"; sourceTree = "<group>"; };
+		602BE41D19AB7FDB00A1E4A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		602BE41F19AB7FDB00A1E4A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		602BE42119AB7FDB00A1E4A3 /* Freight Express-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Freight Express-Prefix.pch"; sourceTree = "<group>"; };
+		602BE42219AB7FDB00A1E4A3 /* FEXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FEXAppDelegate.h; sourceTree = "<group>"; };
+		602BE42319AB7FDB00A1E4A3 /* FEXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEXAppDelegate.m; sourceTree = "<group>"; };
+		602BE42619AB7FDC00A1E4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		602BE42819AB7FDC00A1E4A3 /* FEXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FEXViewController.h; sourceTree = "<group>"; };
+		602BE42919AB7FDC00A1E4A3 /* FEXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEXViewController.m; sourceTree = "<group>"; };
+		602BE42B19AB7FDC00A1E4A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		602BE43119AB7FDC00A1E4A3 /* Freight ExpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Freight ExpressTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		602BE43219AB7FDC00A1E4A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		602BE43A19AB7FDC00A1E4A3 /* Freight ExpressTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Freight ExpressTests-Info.plist"; sourceTree = "<group>"; };
+		602BE43C19AB7FDC00A1E4A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		602BE43E19AB7FDC00A1E4A3 /* Freight_ExpressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Freight_ExpressTests.m; sourceTree = "<group>"; };
+		60D55FB219BCEC6E0032FFE3 /* SignalYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SignalYellow.png; sourceTree = "<group>"; };
+		60D55FB419BCEE080032FFE3 /* boxes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxes.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		602BE40D19AB7FDB00A1E4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602BE41619AB7FDB00A1E4A3 /* CoreGraphics.framework in Frameworks */,
+				602BE41819AB7FDB00A1E4A3 /* UIKit.framework in Frameworks */,
+				602BE41419AB7FDB00A1E4A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602BE42E19AB7FDC00A1E4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602BE43319AB7FDC00A1E4A3 /* XCTest.framework in Frameworks */,
+				602BE43519AB7FDC00A1E4A3 /* UIKit.framework in Frameworks */,
+				602BE43419AB7FDC00A1E4A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		602BE40719AB7FDB00A1E4A3 = {
+			isa = PBXGroup;
+			children = (
+				602BE41919AB7FDB00A1E4A3 /* Freight Express */,
+				602BE43819AB7FDC00A1E4A3 /* Freight ExpressTests */,
+				602BE41219AB7FDB00A1E4A3 /* Frameworks */,
+				602BE41119AB7FDB00A1E4A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		602BE41119AB7FDB00A1E4A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				602BE41019AB7FDB00A1E4A3 /* Freight Express.app */,
+				602BE43119AB7FDC00A1E4A3 /* Freight ExpressTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		602BE41219AB7FDB00A1E4A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				602BE41319AB7FDB00A1E4A3 /* Foundation.framework */,
+				602BE41519AB7FDB00A1E4A3 /* CoreGraphics.framework */,
+				602BE41719AB7FDB00A1E4A3 /* UIKit.framework */,
+				602BE43219AB7FDC00A1E4A3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		602BE41919AB7FDB00A1E4A3 /* Freight Express */ = {
+			isa = PBXGroup;
+			children = (
+				602BE42219AB7FDB00A1E4A3 /* FEXAppDelegate.h */,
+				602BE42319AB7FDB00A1E4A3 /* FEXAppDelegate.m */,
+				602BE42519AB7FDC00A1E4A3 /* Main.storyboard */,
+				6020749919B24D1300862733 /* Game.h */,
+				6020749A19B24D1300862733 /* Game.m */,
+				602BE42819AB7FDC00A1E4A3 /* FEXViewController.h */,
+				602BE42919AB7FDC00A1E4A3 /* FEXViewController.m */,
+				602BE42B19AB7FDC00A1E4A3 /* Images.xcassets */,
+				602BE41A19AB7FDB00A1E4A3 /* Supporting Files */,
+			);
+			path = "Freight Express";
+			sourceTree = "<group>";
+		};
+		602BE41A19AB7FDB00A1E4A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				601EC10919C1D0E600D1C5CD /* sprite1.png */,
+				601EC10A19C1D0E600D1C5CD /* sprite2.jpg */,
+				601EC10719C1CC9800D1C5CD /* bg.png */,
+				60D55FB419BCEE080032FFE3 /* boxes.png */,
+				60D55FB219BCEC6E0032FFE3 /* SignalYellow.png */,
+				600F976A19B3AF1700BBC468 /* bgm.mp3 */,
+				600F976B19B3AF1700BBC468 /* bubble.aiff */,
+				600F976C19B3AF1700BBC468 /* change.aiff */,
+				600F976D19B3AF1700BBC468 /* gameover.aiff */,
+				600F975E19B39A5200BBC468 /* bogie.png */,
+				600F975F19B39A5200BBC468 /* engine.png */,
+				600F976119B39A5200BBC468 /* signalGreen.png */,
+				600F976219B39A5200BBC468 /* SignalRed.png */,
+				602BE41B19AB7FDB00A1E4A3 /* Freight Express-Info.plist */,
+				602BE41C19AB7FDB00A1E4A3 /* InfoPlist.strings */,
+				602BE41F19AB7FDB00A1E4A3 /* main.m */,
+				602BE42119AB7FDB00A1E4A3 /* Freight Express-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		602BE43819AB7FDC00A1E4A3 /* Freight ExpressTests */ = {
+			isa = PBXGroup;
+			children = (
+				602BE43E19AB7FDC00A1E4A3 /* Freight_ExpressTests.m */,
+				602BE43919AB7FDC00A1E4A3 /* Supporting Files */,
+			);
+			path = "Freight ExpressTests";
+			sourceTree = "<group>";
+		};
+		602BE43919AB7FDC00A1E4A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				602BE43A19AB7FDC00A1E4A3 /* Freight ExpressTests-Info.plist */,
+				602BE43B19AB7FDC00A1E4A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		602BE40F19AB7FDB00A1E4A3 /* Freight Express */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602BE44219AB7FDC00A1E4A3 /* Build configuration list for PBXNativeTarget "Freight Express" */;
+			buildPhases = (
+				602BE40C19AB7FDB00A1E4A3 /* Sources */,
+				602BE40D19AB7FDB00A1E4A3 /* Frameworks */,
+				602BE40E19AB7FDB00A1E4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Freight Express";
+			productName = "Freight Express";
+			productReference = 602BE41019AB7FDB00A1E4A3 /* Freight Express.app */;
+			productType = "com.apple.product-type.application";
+		};
+		602BE43019AB7FDC00A1E4A3 /* Freight ExpressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602BE44519AB7FDC00A1E4A3 /* Build configuration list for PBXNativeTarget "Freight ExpressTests" */;
+			buildPhases = (
+				602BE42D19AB7FDC00A1E4A3 /* Sources */,
+				602BE42E19AB7FDC00A1E4A3 /* Frameworks */,
+				602BE42F19AB7FDC00A1E4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				602BE43719AB7FDC00A1E4A3 /* PBXTargetDependency */,
+			);
+			name = "Freight ExpressTests";
+			productName = "Freight ExpressTests";
+			productReference = 602BE43119AB7FDC00A1E4A3 /* Freight ExpressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		602BE40819AB7FDB00A1E4A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FEX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Divu;
+				TargetAttributes = {
+					602BE40F19AB7FDB00A1E4A3 = {
+						DevelopmentTeam = A5QQ5AGL5T;
+					};
+					602BE43019AB7FDC00A1E4A3 = {
+						TestTargetID = 602BE40F19AB7FDB00A1E4A3;
+					};
+				};
+			};
+			buildConfigurationList = 602BE40B19AB7FDB00A1E4A3 /* Build configuration list for PBXProject "Freight Express" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 602BE40719AB7FDB00A1E4A3;
+			productRefGroup = 602BE41119AB7FDB00A1E4A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				602BE40F19AB7FDB00A1E4A3 /* Freight Express */,
+				602BE43019AB7FDC00A1E4A3 /* Freight ExpressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		602BE40E19AB7FDB00A1E4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602BE42C19AB7FDC00A1E4A3 /* Images.xcassets in Resources */,
+				600F976719B39A5200BBC468 /* SignalRed.png in Resources */,
+				600F976E19B3AF1700BBC468 /* bgm.mp3 in Resources */,
+				600F977019B3AF1700BBC468 /* change.aiff in Resources */,
+				600F977119B3AF1700BBC468 /* gameover.aiff in Resources */,
+				602BE41E19AB7FDB00A1E4A3 /* InfoPlist.strings in Resources */,
+				601EC10C19C1D0E600D1C5CD /* sprite2.jpg in Resources */,
+				602BE42719AB7FDC00A1E4A3 /* Main.storyboard in Resources */,
+				60D55FB519BCEE080032FFE3 /* boxes.png in Resources */,
+				601EC10B19C1D0E600D1C5CD /* sprite1.png in Resources */,
+				600F976619B39A5200BBC468 /* signalGreen.png in Resources */,
+				600F976419B39A5200BBC468 /* engine.png in Resources */,
+				601EC10819C1CC9800D1C5CD /* bg.png in Resources */,
+				60D55FB319BCEC6E0032FFE3 /* SignalYellow.png in Resources */,
+				600F976F19B3AF1700BBC468 /* bubble.aiff in Resources */,
+				600F976319B39A5200BBC468 /* bogie.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602BE42F19AB7FDC00A1E4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602BE43D19AB7FDC00A1E4A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		602BE40C19AB7FDB00A1E4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602BE42419AB7FDB00A1E4A3 /* FEXAppDelegate.m in Sources */,
+				602BE42019AB7FDB00A1E4A3 /* main.m in Sources */,
+				602BE42A19AB7FDC00A1E4A3 /* FEXViewController.m in Sources */,
+				6020749B19B24D1300862733 /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602BE42D19AB7FDC00A1E4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602BE43F19AB7FDC00A1E4A3 /* Freight_ExpressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		602BE43719AB7FDC00A1E4A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 602BE40F19AB7FDB00A1E4A3 /* Freight Express */;
+			targetProxy = 602BE43619AB7FDC00A1E4A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		602BE41C19AB7FDB00A1E4A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602BE41D19AB7FDB00A1E4A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		602BE42519AB7FDC00A1E4A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602BE42619AB7FDC00A1E4A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		602BE43B19AB7FDC00A1E4A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602BE43C19AB7FDC00A1E4A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		602BE44019AB7FDC00A1E4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		602BE44119AB7FDC00A1E4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		602BE44319AB7FDC00A1E4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Freight Express/Freight Express-Prefix.pch";
+				INFOPLIST_FILE = "Freight Express/Freight Express-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		602BE44419AB7FDC00A1E4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Freight Express/Freight Express-Prefix.pch";
+				INFOPLIST_FILE = "Freight Express/Freight Express-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		602BE44619AB7FDC00A1E4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Freight Express.app/Freight Express";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Freight Express/Freight Express-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Freight ExpressTests/Freight ExpressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		602BE44719AB7FDC00A1E4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Freight Express.app/Freight Express";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Freight Express/Freight Express-Prefix.pch";
+				INFOPLIST_FILE = "Freight ExpressTests/Freight ExpressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		602BE40B19AB7FDB00A1E4A3 /* Build configuration list for PBXProject "Freight Express" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602BE44019AB7FDC00A1E4A3 /* Debug */,
+				602BE44119AB7FDC00A1E4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602BE44219AB7FDC00A1E4A3 /* Build configuration list for PBXNativeTarget "Freight Express" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602BE44319AB7FDC00A1E4A3 /* Debug */,
+				602BE44419AB7FDC00A1E4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602BE44519AB7FDC00A1E4A3 /* Build configuration list for PBXNativeTarget "Freight ExpressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602BE44619AB7FDC00A1E4A3 /* Debug */,
+				602BE44719AB7FDC00A1E4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 602BE40819AB7FDB00A1E4A3 /* Project object */;
+}
